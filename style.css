@@ -1,6 +1,27 @@
-head{
-    font-size: 1em;
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-body{
-    font-size: 2em;
+#basenavigation{
+
+}
+#navigationlist {
+    
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.navigationItem {
+    display: inline;
+}
+
+.navigationLink{ 
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    
 }

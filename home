@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel=stylesheet style="text/css" href="style.css">
+        <title>index</title>
+    </head>
+    <body>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="/html/">HTML</a></li>
+                <li><a href="/css/">CSS</a></li>
+                <li><a href="/js/">JavaScript</a></li>
+                <li><a href="/jquery/">jQuery</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
