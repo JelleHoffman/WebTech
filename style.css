@@ -4,29 +4,37 @@ h1,h2,h3,h4,h5,h6{
 }
 body{
     font-family: sans-serif;
+    background-color: #BFBFBF;
 }
-#basenavigation{
-
-}
-#navigationlist {
+#navigationContainer ul {
     width: 100%;
     padding: 0;
     list-style-type: none;
+    
+    
 }
-
-
-.navigationItem {
+#navigationContainer li {
     display: inline;
+    
 }
 
-.navigationLink{
+#navigationContainer a{
     float: left; 
     width: 20%;
     text-decoration: none;
     text-align: center;
     color: white;
     margin-bottom: 0.5em;
-    background-color: black;   
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: black;
+    font-weight: bold;
+}
+#active a{
+    background:red;
+}
+#navigationContainer a:hover{
+    background: red;
 }
 
 #copyright{
