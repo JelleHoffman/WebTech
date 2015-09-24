@@ -5,18 +5,29 @@ html, body{
 h1,h2,h3,h4,h5,h6{
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+    color: white;
+    
 }
 h1{
     margin-left:2%;
 }
 body{
+    
     font-family: sans-serif;
-    background-color: red;
+    background-image: url("shuffle2.jpg");
+     background-size:   cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    color: white;
     padding:0;
     margin:0;
 }
 #container{
-    background-color: #BFBFBF;
+    
+    background-color: #2E2E2E;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
     height: 100%;
     margin-left: 20%;
     margin-right: 20%;
@@ -41,7 +52,6 @@ body{
     float: left;
     align-content: center;
     width: 20%;
-    text-decoration: none;
     text-align: center;
     color: white;
     margin-bottom: 0.5em;
@@ -80,4 +90,19 @@ body{
     clear: both;
     margin-left:2%;
     margin-right:2%;
+    
 }
+
+.photoalbum p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.photoalbum img{
+    width: 220px; 
+    height: 150px;
+    margin: 0.5em;
+    
+}
+
+
