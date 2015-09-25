@@ -6,7 +6,7 @@ function mijnfunctie(){
     var body = document.getElementsByTagName("body")[0];
     var w = window.innerWidth;
     
-    if (w > 800) {
+    if (w > 1080) {
         if (color == 'url("fotos/shuffle7.jpg")') {
             color = 'url("fotos/shuffle2.jpg")';
         } else {
