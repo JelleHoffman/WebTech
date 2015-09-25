@@ -79,6 +79,9 @@ div{
     position:relative;
     width: 100%;
 }
+a{
+    color:red;
+}
 #nieuwsDiv{
     float: left;
     width:60%;

@@ -1,6 +1,6 @@
 var color = 'url("shuffle7.jpg")';
 
-setInterval(mijnfunctie, 2000);
+setInterval(mijnfunctie, 8000);
 
 function mijnfunctie(){
     var body = document.getElementsByTagName("body")[0];
