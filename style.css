@@ -9,6 +9,11 @@ body{
     color: white; 
 }
 
+img{
+    width: 100px; 
+    height: 100px;
+    vertical-align: middle;
+}
 
 #navigationContainer ul {
     width: 100%;
@@ -39,6 +44,9 @@ body{
 }
 #navigationContainer a:hover{
     background: red;
+}
+#agendaDiv ul{
+    list-style-type: diamond;
 }
 
 #copyright{
