@@ -88,14 +88,14 @@ div{
 #agendaDiv{
     float: left;
     width:30%;
-    margin-left:2%;
-    margin-bottom: 2%;
+    margin:2%;
     padding-bottom: 1em;
     padding-top: 0em;
     border: 1px solid white;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    background-color: red;
     
 }
 

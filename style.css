@@ -45,10 +45,6 @@ img{
 #navigationContainer a:hover{
     background: red;
 }
-#agendaDiv ul{
-    list-style-type: diamond;
-}
-
 #copyright{
     text-align: right;
     font-size: 0.7em;
